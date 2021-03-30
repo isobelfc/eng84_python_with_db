@@ -2,6 +2,13 @@
 
 ## Establishing a connection with PYODBC
 - We use PYODBC to establish a connection between Python and SQL
+### Useful links to help debug PYODBC installation
+- For Ubuntu
+https://packages.microsoft.com/ubuntu/20.04/prod/pool/main/m/msodbcsql17/
+  https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/m/msodbcsql17/
+    
+- For Windows
+https://docs.microsoft.com/en-gb/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15
 
 ### CRUD
 ### Making data persistent
