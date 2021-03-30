@@ -19,10 +19,10 @@ https://docs.microsoft.com/en-gb/sql/connect/odbc/download-odbc-driver-for-sql-s
 import pyodbc
 
 # Let's establish the connection using PYODBC
-server = "18.135.103.95"  # ip
+server = "XXX"  # ip
 database = "Northwind"  # name of DB, case sensitive
-username = "SA"
-password = "Passw0rd2018"
+username = "XXX"
+password = "XXX"
 docker_Northwind = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)  # validates the connection
 
 # Let's check if the connection has been validated and cursor object is created
